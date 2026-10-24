@@ -255,7 +255,7 @@ color: red
 }
 
 #WORD { 
- transform: translateY(100%);  
+ transform: translate(100%);  
 }
 
 
