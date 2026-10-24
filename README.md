@@ -47,48 +47,49 @@ let speeck = new SpeechSynthesisUtterance();
   </body>
   </html>      
     
-                <header class="site-header">
-                          <div class="container nav-wrapper">
-                                  
+               <header class="site-header">
+  <div class="container nav-wrapper">
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
 
-                                              <nav aria-label="Main navigation">
-                                        <a href="index.html">Home</a>
-                                       <a href="services.html">Services</a>
-                                <a href="about.html">About</a>
-                            <a href="contact.html">Contact</a>
+    <img id="logo" src="img/logo.png" width="400" height="350" alt="logo">
+    <p id="word1">Twin cities animal rescue</p>
+  </div>
+</header>
 
-                            <img id ="logo" src="img/logo.png" width=400 height=350 alt="logo" 
-                       nav>
-                    
-                 <p id="word1"> Twin cities animal recure</p>
-                    
-                         </div>
-                     </header>
-                     <main>
-                                       <section class="page-header">
-                                     <div class="container">
-                                 <p class="eyebrow"></p><H1>Twin cities animal rescue<H1></p>
-                      
-                    <p>
-                                   <strong>Mission statement:</strong>our grogram give animmals the 2nd chance they deserve it doesnt matter what they have done we will give them a chance to be loved and cared for and we will find them a home where they can be happy and safe
-                     </p>
-                              </div>
-                     </section>
-                                <section class="section">
-                                    <div class="container service-list">
-                                 <article class="service-item">
-                                      <div class="service-number">01</div>
-                                      <div>
-                            
-                            <p>
-                        <h1>Adoption</h1>
+<main>
+  <section class="page-header">
+    <div class="container">
+      <h1>Twin cities animal rescue</h1>
 
-                                     <H2> <strong>1</strong><li><strong>you can donate $5 a week to us</strong></li></H2>
-                                      
-                                    <H2>  <strong>2</strong><li><strong>you can volunteer your time with us so you can help the animals</strong></li></p></H2>
+      <p>
+        <strong>Mission statement:</strong> our program gives animals the second chance they deserve.
+        It doesn’t matter what they have done; we will give them a chance to be loved and cared for,
+        and we will find them a home where they can be happy and safe.
+      </p>
+    </div>
+  </section>
 
+  <section class="section">
+    <div class="container service-list">
+      <article class="service-item">
+        <div class="service-number">01</div>
+        <div>
+          <h2>Adoption</h2>
 
-                                
+          <ul>
+            <li><strong>1:</strong> You can donate $5 a week to us.</li>
+            <li><strong>2:</strong> You can volunteer your time with us to help the animals.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
                       </p>
                       
 
